@@ -53,3 +53,4 @@ class MainWindow(QMainWindow):
         sleep(5)
         self.output.setText(temp)
         pg.write(self.output.text())
+        pg.press('enter')
